@@ -7,6 +7,12 @@ A simple emoji keypad project and utilities (collection of `Emojikeypad` scripts
 - Collection of KEYPAD Python scripts
 - Quick start instructions
 
+## Designation
+
+* E stands for Extension
+* V stands for Version
+
+
 ## Installation
 
 1. Clone the repo:
