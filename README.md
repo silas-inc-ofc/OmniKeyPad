@@ -1,10 +1,10 @@
-# OmniKeypad
+# OmniKeypad V1.0
 
 A simple emoji keypad project and utilities (collection of `Emojikeypad` scripts).
 
 ## Features
 
-- Collection of `Emojikeypad` Python scripts
+- Collection of KEYPAD Python scripts
 - Quick start instructions
 
 ## Installation
