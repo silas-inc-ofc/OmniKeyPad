@@ -4,6 +4,7 @@ from tkinter import font as tkfont
 import pyperclip
 from itertools import *
 
+print('working')
 mouths = ['O','o','0','.','_','u','U','x','X','w','W','3','__']+list('▢▭▯◊▫▱◁▷△◅▻▵◃▹◇◌▽○◯◻□')
 
 
@@ -20,12 +21,16 @@ eyes += ['O','o','0','@','-','=','*','I','i','!','¬','`','#','~','^','$','<','>
 
 left_cheek =list('∈∉≮≤≰≨≦≲≴≪≺⊆≾⊊⊂≼⊄⊈⊏⊑⋠⋞⋜⋢⋦⋨⩽⪁⪇⪍⪅⪃⪉⪙⪗⪝⪕⪛⪡⪬⪯⪪⪷⪽⫃⪵⪻⫁⪹⪿⫅⫉⫇⫹⫷⩻⩹⩿')
 RIGHT_CHEEK =list('∋∌≯≥≱≩≧≳≵≫≻⊇≿⊋⊃≽⊅⊉⊐⊒⋡⋟⋝⋣⋧⋩⩾⪂⪈⪎⪆⪄⪊⪚⪘⪞⪖⪜⪢⪭⪰⪫⪸⪾⫄⪶⪼⫂⪺⫀⫆⫊⫈⫺⫸⩼⩺⪀')
+eyes_batches = list(batched(eyes,len(eyes)//8))
+eyes0 = eyes_batches[0]
+
+
 
 
 emoticons_list = []
 
-for e3 in eyes:
-    for e4 in eyes:
+for e3 in eyes0:
+    for e4 in eyes0:
         for m in mouths:
 
             for c in left_cheek:
