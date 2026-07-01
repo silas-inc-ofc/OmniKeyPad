@@ -1,6 +1,6 @@
 # OmniKeypad V1.0
 
-A simple emoji keypad project and utilities (collection of `Emojikeypad` scripts).
+A  keypad project and utilities (collection of `keypad` scripts).
 
 ## Features
 
