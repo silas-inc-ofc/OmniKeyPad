@@ -1,6 +1,6 @@
 # OmniKeypad V2.0
 
-A simple keypad project and utilities (collection of `pad` scripts).
+A simple keypad project and utilities (collection of `keypad` scripts).
 
 ## Features
 
